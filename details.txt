@@ -1,0 +1,26 @@
+Peer review system
+
+Admin Modules
+Admin will register employee
+Each employee can rates there peer employee
+If employee is in department then S/he can rates there peer
+Admin can add department
+Admin can add employee to a department
+DB
+Following details should be needed from employee
+Name
+Age
+Department
+Date of joining
+Following details should be needed for department
+Name
+Admin_id
+Employee Modules:
+Employee can login and see their rating, rates the fellow employee While rating the employee, employee can also comments
+Employees can’t edit the comments and rating after the lock period.
+
+Constraints:
+Employee should be assigned to only one department
+Admin only can do CRUD employees.
+Admin only can do CRUD on the department.
+Admin only can assign a department to an employee.
