@@ -19,4 +19,7 @@ app.use(express.json());
 app.use('/admin',route);
 app.use('/emp',routes);
 
-app.listen(8500);
+app.listen(8500,() => {
+    
+    console.log('Application started on port 8500')
+});
